@@ -1,8 +1,8 @@
 """
-A component which allows you to parse http://www.qiyoujiage.com/zhejiang.shtml get oil price
+A component which allows you to parse http://www.qiyoujiage.com/shandong.shtml get oil price
 
 For more details about this component, please refer to the documentation at
-https://github.com/aalavender/OilPrice/
+https://github.com/chenyu614/oilprice/
 
 """
 import re
@@ -22,7 +22,7 @@ _LOGGER = logging.getLogger(__name__)
 
 REQUIREMENTS = ['requests', 'beautifulsoup4']
 
-COMPONENT_REPO = 'https://github.com/aalavender/OilPrice/'
+COMPONENT_REPO = 'https://github.com/chenyu614/oilprice'
 SCAN_INTERVAL = datetime.timedelta(hours=8)
 ICON = 'mdi:gas-station'
 
