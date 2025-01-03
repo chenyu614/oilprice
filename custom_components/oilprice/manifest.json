@@ -2,8 +2,8 @@
   "domain": "oilprice",
   "name": "oilprice",
   "version": "0.0.2",
-  "documentation": "https://github.com/aalavender/OilPrice/blob/master/README.md",
+  "documentation": "https://github.com/chenyu614/oilprice/blob/main/README.md",
   "dependencies": [],
-  "codeowners": ["@aalavender"],
+  "codeowners": ["@chenyu614"],
   "requirements": ["requests", "beautifulsoup4"]
 }
