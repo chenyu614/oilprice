@@ -1,7 +1,5 @@
 # 油价 HomeAssistant集成
 
-![yaofan](https://user-images.githubusercontent.com/6293952/196037499-17ef6aec-9fe4-4fc2-a4ac-811a12bfb380.jpg)
-
 <a name="install"></a>
 ## 安装/更新
 
