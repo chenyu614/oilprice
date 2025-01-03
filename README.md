@@ -5,10 +5,10 @@
 
 > 以下两种方法任选其一！
 
-#### 方法1: [HACS (**点击这里安装**)](https://my.home-assistant.io/redirect/hacs_repository/?owner=cheny95&repository=olipirce&category=integration)
+#### 方法1: [HACS (**点击这里安装**)](https://my.home-assistant.io/redirect/hacs_repository/?owner=chenyu614&repository=oilprice&category=integration)
 
 #### 方法2: 通过 Samba / SFTP 手动安装
-> [下载](https://github.com/cheny95/olipirce/archive/main.zip)解压并复制`custom_components/oilprice`文件夹到HA配置目录下的`custom_components`文件夹
+> [下载](https://github.com/chenyu614/oilprice/archive/main.zip)解压并复制`custom_components/oilprice`文件夹到HA配置目录下的`custom_components`文件夹
 
 ## 使用方法：
 - 安装完毕后重启Home Assistant。
@@ -18,7 +18,7 @@
 sensor:
   - platform: oilprice
     name: 油价
-    region: anhui  # 此处为你要获取油价的省份全拼
+    region: shandong  # 此处为你要获取油价的省份全拼
 ```
 - 再次重启 Home Assistant
 - 启动成功后，如无报错，你的油价插件就已安装完成
