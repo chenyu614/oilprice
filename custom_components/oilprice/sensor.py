@@ -45,6 +45,7 @@ class OilPriceSensor(Entity):
     def __init__(self, name: str, region: str):
         self._name = name
         self._region = region
+        self._attr_unique_id = f"youjia_{region}"  # 例如：oilprice_shandong
         self._state = None
         self._entries = {}
 
