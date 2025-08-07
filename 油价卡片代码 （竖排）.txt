@@ -1,5 +1,5 @@
 ##  <ha-icon icon="mdi:gas-station">
-##  <center>海安油价
+##  <center>中国石油
 <ha-icon icon="mdi:update"></ha-icon> {{ state_attr('sensor.you_jia', 'update_time')}} 
 ##  <center>92#<ha-icon icon="mdi:gas-station">  </ha-icon><font color=#ea4335> {{ state_attr('sensor.you_jia', '92')}} </font>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ##  <center>95#<ha-icon icon="mdi:gas-station">  </ha-icon><font color=#fbbc05> {{ state_attr('sensor.you_jia', '95')}} </font>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -8,3 +8,4 @@
 - {{ states('sensor.you_jia') }} 
 
 - {{ state_attr('sensor.you_jia', 'tips')}}
+
